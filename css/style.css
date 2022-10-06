@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background: #675AFE;
+}
+
+::selection{
+  color: #fff;
+  background: #675AFE;
+}
+
+.wrapper{
+  width: 370px;
+  padding: 30px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper p.header{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.wrapper div{
+  margin: 40px 0 20px 0;
+}
+
+.div :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+div p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+div input{
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+
+div input:focus{
+  padding: 0 14px;
+  border: 2px solid #675AFE;
+}
+
+p{
+  margin-top: 20px;
+}
